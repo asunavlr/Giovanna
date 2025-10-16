@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Do you love me? 💖</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <section class="card" aria-label="Love question">
+        <div class="art" aria-hidden="true">🥰</div>
+        <h1 class="question">Do you love me?</h1>
+        <p class="subtitle">Be honest, I can handle it 💌</p>
+        <div class="buttons" aria-label="Answer buttons">
+          <button id="yesBtn" class="btn yes" aria-label="Yes">Yes</button>
+          <button id="noBtn" class="btn no" aria-label="No">No</button>
+        </div>
+      </section>
+
+      <footer class="footer" aria-hidden="true">
+        <span>Made with love for you 💗</span>
+      </footer>
+    </main>
+
+    <div id="overlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="overlayTitle">
+      <div class="overlay-content">
+        <h2 id="overlayTitle">Yay! I love you too 💖</h2>
+        <p>You make my world brighter every single day.</p>
+        <button id="againBtn" class="btn again">Ask again</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
